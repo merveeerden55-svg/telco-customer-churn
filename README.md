@@ -84,18 +84,10 @@ Bu analizle işletmelerin müşteri tutundurma bütçelerini öncelikli risk gru
 Elde edilen bulgular betimsel ve tahmine dayalıdır; değişkenler arasındaki ilişkiler tek başına nedensellik kanıtı olarak değerlendirilmemelidir.
 
 ## Proje Dosya Yapısı
+## Proje Dosya Yapısı
 
 ```text
-
-Hatta mevcut hâli de çalışır; sadece `text` etiketi zorunlu değil.
-
-**2. Kurulum komutunu düzelt**
-
-110. satırdaki komutun şu şekilde olduğundan emin ol:
-
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn jupyter
-YZT PROJE/
+telco-customer-churn/
 │
 ├── data/
 │   └── WA_Fn-UseC_-Telco-Customer-Churn.csv
@@ -106,25 +98,29 @@ YZT PROJE/
 └── README.md
 ```
 
-## Çalıştırma
+## Kurulum
 
-1. Proje dosyalarını bilgisayarınıza indirin.
-2. Gerekli Python kütüphanelerini yükleyin.
-3. `notebooks/customer_churn.ipynb` dosyasını Jupyter Notebook veya VS Code ile açın.
-4. Hücreleri sırasıyla çalıştırın.
-
-Gerekli kütüphaneler:
+Gerekli Python kütüphanelerini yüklemek için:
 
 ```bash
 pip install pandas numpy matplotlib seaborn scikit-learn jupyter
 ```
+
+## Çalıştırma
+
+1. Depoyu bilgisayarınıza indirin veya klonlayın.
+2. Gerekli Python kütüphanelerini yükleyin.
+3. `notebooks/customer_churn.ipynb` dosyasını VS Code veya Jupyter Notebook ile açın.
+4. Hücreleri sırasıyla çalıştırın.
+
 ## Keşifsel Veri Analizi
 
 Müşteri kaybı; sözleşme türü, müşteri kıdemi, aylık ücret ve ödeme yöntemi gibi değişkenler üzerinden incelenmiştir.
 
 Analiz kapsamında toplam 8 grafik kullanılarak müşteri kayıp dağılımı ve farklı müşteri özellikleri arasındaki ilişkiler değerlendirilmiştir.
 
-Ek analizlerde;
+Ek analizlerde:
+
 - StreamingTV ve StreamingMovies hizmetlerinin kullanımı,
 - Partner ve Dependents değişkenleri üzerinden aile ve hane yapısı,
 - PhoneService ve MultipleLines değişkenleri üzerinden telefon hizmeti kullanımı
@@ -132,4 +128,3 @@ Ek analizlerde;
 ile müşteri kaybı oranları karşılaştırılmıştır.
 
 Bu analizler, müşteri kaybıyla ilişkili olabilecek farklı müşteri özelliklerini incelemek ve işletmeler için veri odaklı çıkarımlar geliştirmek amacıyla gerçekleştirilmiştir.
-README düzenlendi.
