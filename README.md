@@ -132,3 +132,4 @@ Ek analizlerde;
 ile müşteri kaybı oranları karşılaştırılmıştır.
 
 Bu analizler, müşteri kaybıyla ilişkili olabilecek farklı müşteri özelliklerini incelemek ve işletmeler için veri odaklı çıkarımlar geliştirmek amacıyla gerçekleştirilmiştir.
+README düzenlendi.
