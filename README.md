@@ -120,7 +120,11 @@ Müşteri kaybı; sözleşme türü, müşteri kıdemi, aylık ücret ve ödeme 
 Analiz kapsamında toplam 8 grafik kullanılarak müşteri kayıp dağılımı ve farklı müşteri özellikleri arasındaki ilişkiler değerlendirilmiştir.
 
 Ek analizlerde:
-
+- Müşteri Kaybı Dağılımı
+- Aylık Ücrete Göre Müşteri Kaybı
+- Ödeme Yöntemine Göre Müşteri Kaybı
+- Sözleşme Türüne Göre Müşteri Kaybı
+- Müşteri Kıdemine Göre Kayıp
 - StreamingTV ve StreamingMovies hizmetlerinin kullanımı,
 - Partner ve Dependents değişkenleri üzerinden aile ve hane yapısı,
 - PhoneService ve MultipleLines değişkenleri üzerinden telefon hizmeti kullanımı
